@@ -19,6 +19,6 @@ INSERT INTO orders (customer_id, combo_id, order_time)
 VALUES
   (1, 3, '2025-08-10 12:30:00'),
   (2, 2, '2025-08-10 13:15:00'),
-
   (3, 1, '2025-08-11 19:00:00');
+
 
