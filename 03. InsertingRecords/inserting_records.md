@@ -20,9 +20,9 @@ This project outlines the database creation of Feline Foods<br />
   -  name: 'Paws', address: '99 Whisker Way', contact: '555-0102'
 
 -  Insert customer records into the combos table with the following values:
-  -  name: 'Fish & Chips', price: '8.50'
-  -  name: 'Sushi Bento', price: '12.00'
-  -  name: 'Pasta Combo', price: '10.00'
+    -  name: 'Fish & Chips', price: 8.50
+    -  name: 'Sushi Bento', price: 12.00
+    -  name: 'Pasta Combo', price: 10.00
 
 - Insert order records into the orders table with the following values:
   -  customer_id: 1, combo_id: 3, order_time: '2025-08-10 12:30:00'
