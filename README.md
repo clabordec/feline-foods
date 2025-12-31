@@ -69,11 +69,11 @@ Feline Foods is a project centered around a local retro gaming club that hosts a
 ---
 
 📂 **Repo Organization**  
-- `database_creation` → Queries that involve creating the database to store all tables and records.
-- `table_creation/` → Queries that invovle the creation of the following tables: .
-- `inserting_records/` → Queries that involve adding records within the tables created.
-- `data_retrieval/` → Queries that involve getting specific amounts of data from the tables.
-- `data_manipulation/` → Queries that invovle updating or deleting certain records within the tables.
+- `DatabaseCreation/` → Queries that involve creating the database to store all tables and records.
+- `TableCreation/` → Queries that invovle the creation of the following tables: .
+- `InsertingRecords/` → Queries that involve adding records within the tables created.
+- `DataRetrieval/` → Queries that involve getting specific amounts of data from the tables.
+- `DataManipulation/` → Queries that invovle updating or deleting certain records within the tables.
 
 ---
 
