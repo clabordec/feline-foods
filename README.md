@@ -60,6 +60,11 @@ Feline Foods is a project centered around a local retro gaming club that hosts a
 
 ---
 
+🖥️ **Database**  
+- MySQL 
+
+---
+
 🛠 **Skills Utilized**  
 - **DQL/DRL** to retrieve and filter out certain parts of the data.
 - **DML** to manipulate, make changes or get rid of duplicates or typos within the data.
