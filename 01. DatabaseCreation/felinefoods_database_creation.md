@@ -25,15 +25,15 @@ This project outlines the database creation of Feline Foods<br />
 
 <h1>Actions and Observations</h1>
 
-## Creating the user
-### In the USA OU, go to Users >> Right-click on the Accounting OU >> Click New > Click User
+## Creating the database
+### Create the database felinefoods
 <p>
-<img src="https://github.com/user-attachments/assets/0f3918ee-cfd4-420c-ad87-bd590aebcd6d" width="550" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/9b2f4f58-ba5e-4326-98de-3004bdf04009" width="550" alt="Disk Sanitization Steps"/>
 </p>
 
-### Enter in the following data, then click Next
+### Check if the database is currently selected, the `NULL` means that there is not a database selected
 <p>
-<img src="https://github.com/user-attachments/assets/e75d0e4f-6ed1-4a34-bf4f-ef7c6b9ae5e7" width="550" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/e7ddbf9c-81cd-4a9c-9177-59748c10ecca" width="550" alt="Disk Sanitization Steps"/>
 </p>
 
 ### Enter a secure password
