@@ -70,9 +70,9 @@ Feline Foods is a project centered around a local retro gaming club that hosts a
 
 📂 **Repo Organization**  
 - `table_creation/` → Queries that invovle the creation of the following tables: .
-- `inserting_records/` → Organized steps on setting up Windows 10 Pro, joining the client to the domain, installing applications on the user's machine in the backend and remoting into the user's machine to resolve issues.
-- `data_retrieval/` → Organized steps on centralizing and managing users, computers, and other network resources, enabling administrators to control access, enforce security policies, and streamline IT management.
-- `data_manipulation/` → Organized steps on managing system settings, application settings and user configuration.
+- `inserting_records/` → Queries that involve adding records within the tables created.
+- `data_retrieval/` → Queries that involve getting specific amounts of data from the tables.
+- `data_manipulation/` → Queries that invovle updating or deleting certain records within the tables.
 
 ---
 
