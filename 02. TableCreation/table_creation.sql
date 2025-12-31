@@ -23,4 +23,17 @@ CREATE TABLE orders (
 	order_time DATE,
 	FOREIGN KEY (customer_id) REFERENCES customers(customer_id),
 	FOREIGN KEY (combo_id) REFERENCES combos(combo_id)
+
 );
+
+
+-- Verify the information on the customers table
+DESCRIBE customers;
+
+
+-- Verify the information on the combos table
+DESCRIBE combos;
+
+
+-- Verify the information on the orders table
+DESCRIBE orders;
