@@ -58,6 +58,11 @@ This project outlines the creation of tables within the Feline Foods database<br
 <img src="https://github.com/user-attachments/assets/ad6b4ee7-df8b-4b05-bf77-64e7e8380da1" width="550" alt="Disk Sanitization Steps"/>
 </p>
 
+### Get information from the newly created tables
+<p>
+<img src="https://github.com/user-attachments/assets/26647b7a-5b41-419f-8948-bbdeecf83252" width="550" alt="Disk Sanitization Steps"/>
+</p>
+
 ---
 
 <br />
