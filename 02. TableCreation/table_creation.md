@@ -55,7 +55,7 @@ This project outlines the creation of tables within the Feline Foods database<br
 
 ### Create the orders table, establish the relationships while creating the table
 <p>
-<img src="https://github.com/user-attachments/assets/ad6b4ee7-df8b-4b05-bf77-64e7e8380da1" width="550" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/7f751e8b-2710-41ba-a43f-eb09e483fc4c" width="550" alt="Disk Sanitization Steps"/>
 </p>
 
 ### Get information from the newly created tables
