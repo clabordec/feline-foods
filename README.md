@@ -16,41 +16,36 @@ Feline Foods is a project centered around a local retro gaming club that hosts a
 
 ✨ **Diagram**  
 ```
-+------------------+       +------------------+
-|     Members      |       |      Games       |
-+------------------+       +------------------+
-| member_id (PK)   |       | game_id (PK)     |
-| username         |       | title            |
-| join_date        |       | platform         |
-| email            |       | genre            |
-+------------------+       | release_year     |
-                           +------------------+
-                                   |
-                                   |
-                                   |
-                          +------------------+
-                          |    Meetups       |
-                          +------------------+
-                          | meetup_id (PK)   |
-                          | meetup_date      |
-                          | location         |
-                          | featured_game_id |
-                          | (FK → Games)     |
-                          +------------------+
-                                   |
-                                   |
-                    +--------------------------------+
-                    |                                |
-          +---------------------+        +---------------------+
-          |   Match_Results     |        |   Attendance        |
-          +---------------------+        +---------------------+
-          | result_id (PK)      |        | attendance_id (PK) |
-          | member_id (FK)      |        | member_id (FK)     |
-          | meetup_id (FK)      |        | meetup_id (FK)     |
-          | score               |        | check_in_time      |
-          | completion_time     |        +---------------------+
-          | ranking             |
-          +---------------------+
++--------------------+
+|     customers      |
++--------------------+
+| customer_id (PK)   |
+| name               |
+| contact            |
+| address            |
++--------------------+
+          |
+          | 1-to-Many
+          |
++--------------------+
+|       orders       |
++--------------------+
+| order_id (PK)      |
+| customer_id (FK)   |
+| combo_id (FK)      |
+| order_time         |
++--------------------+
+          |
+          | Many-to-1
+          |
++--------------------+
+|       combos       |
++--------------------+
+| combo_id (PK)      |
+| name               |
+| price              |
++--------------------+
+
 ```
 
 ---
