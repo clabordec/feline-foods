@@ -14,54 +14,10 @@ This project outlines the database creation of Feline Foods<br />
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-Database Schema Explanation
-
-Carefully go through the content and diagram in this question; you need to answer the next question based on this.
-
-This Entity-Relationship (ER) diagram illustrates the relationships among three tables—games, players, and scores—in a gaming database. The purpose of this schema is to track which players participated in which games, their respective scores, and the dates of play.
-
-1. games Table
-
-Column	Type	Description
-game_id	INTEGER	Primary Key (PK) — uniquely identifies each game.
-title	TEXT	Name or title of the game (e.g., "Chess", "Tetris").
-Purpose: Stores details of each game available in the system.
-
-2. players Table
-
-Column	Type	Description
-player_id	INTEGER	Primary Key (PK) — unique ID for each player.
-name	TEXT	Player’s name.
-Purpose: Contains information about all registered players.
-
-3. scores Table
-
-Column	Type	Description
-score_id	INTEGER	Primary Key (PK) - unique ID for each score record
-game_id	INTEGER	Foreign Key (FK) - references games.game_id
-player_id	INTEGER	Foreign Key (FK) - references players.player_id
-score	INTEGER	The player’s score in that game
-date_played	DATE	The date when the game was played
-Purpose: Serves as a linking table (junction table) between games and players, recording which player played which game, the score achieved, and the date of play.
-
-Relationships
-
-One game can have many scores → games.game_id → scores.game_id
-One player can have many scores → players.player_id → scores.player_id
-The scores table establishes a many-to-many relationship between players and games, as:
-
-Each player can participate in multiple games.
-Each game can be played by multiple players.
-In Summary
-
-The diagram models a gaming database where:
-
-The games table holds the list of games,
-The players table contains the list of players, and
-The scores table connects both, capturing the performance of each player in each game.
-
-
-
+- Create a new database named `gaming`.
+- Display the list of existing databases.
+- Select the newly created `gaming` database for use.
+- Verify the current database in use.
 
 <br>
 
