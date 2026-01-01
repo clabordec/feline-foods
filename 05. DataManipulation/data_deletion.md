@@ -36,7 +36,7 @@ As with the UPDATE command, please exercise caution when using DELETE. Always en
 
 ### Delete customer order number 2
 <p>
-<img src="https://github.com/user-attachments/assets/72d6132a-e1d5-4e06-9b26-5a53855de399" width="550" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/06aa69c7-4f8b-428c-af91-e80e5a5b8499" width="550" alt="Disk Sanitization Steps"/>
 </p>
 
 ### Verify the results
