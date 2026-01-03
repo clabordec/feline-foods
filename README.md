@@ -16,35 +16,6 @@ Feline Foods is a project centered around a local retro gaming club that hosts a
 
 ✨ **Diagram**  
 ```
-+--------------------+
-|     customers      |
-+--------------------+
-| customer_id (PK)   |
-| name               |
-| contact            |
-| address            |
-+--------------------+
-          |
-          | 1-to-Many
-          |
-+--------------------+
-|       orders       |
-+--------------------+
-| order_id (PK)      |
-| customer_id (FK)   |
-| combo_id (FK)      |
-| order_time         |
-+--------------------+
-          |
-          | Many-to-1
-          |
-+--------------------+
-|       combos       |
-+--------------------+
-| combo_id (PK)      |
-| name               |
-| price              |
-+--------------------+
 
 +--------------------+            +--------------------+
 |        games       |            |       players      |
