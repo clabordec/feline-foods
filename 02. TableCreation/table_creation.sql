@@ -1,40 +1,39 @@
--- Create the customers table
-CREATE TABLE customers (
-	customer_id INT PRIMARY KEY AUTO_INCREMENT,
-	name VARCHAR(100) NOT NULL,
-	contact VARCHAR(20) NOT NULL,
-	address TEXT
+-- Create the games table
+CREATE TABLE games (
+	game_id INT PRIMARY KEY AUTO_INCREMENT,
+	title TEXT
 );
 
 
--- Create the combos table
-CREATE TABLE combos (
-	combo_id INT PRIMARY KEY AUTO_INCREMENT,
-	name VARCHAR(100) NOT NULL,
-	price DECIMAL(4,2)
+-- Create the players table
+CREATE TABLE players (
+	player_id INT PRIMARY KEY AUTO_INCREMENT,
+	name TEXT
 );
 
 
--- Create the orders table
-CREATE TABLE orders (
-	order_id INT PRIMARY AUTO_INCREMENT,
-	customer_id INT,
-	combo_id INT,
-	order_time DATETIME,
-	FOREIGN KEY (customer_id) REFERENCES customers(customer_id),
-	FOREIGN KEY (combo_id) REFERENCES combos(combo_id)
+-- Create the scores table, establish the relationships, if any record(s) from the parent table gets deleted, then those same record(s) from the child table will be removed as well
+CREATE TABLE scores (
+	score_id INT PRIMARY AUTO_INCREMENT,
+	game_id INT,
+	player_id INT,
+	score INT NOT NULL,
+	date_played DATE,
+	FOREIGN KEY (game_id) REFERENCES games(game_id) ON DELETE CASCADE,
+	FOREIGN KEY (player_id) REFERENCES players(player_id) ON DELETE CASCADE
 
 );
 
 
 -- Verify the information on the customers table
-DESCRIBE customers;
+DESCRIBE games;
 
 
 -- Verify the information on the combos table
-DESCRIBE combos;
+DESCRIBE players;
 
 
 -- Verify the information on the orders table
-DESCRIBE orders;
+DESCRIBE scores;
+
 
