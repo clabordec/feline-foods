@@ -14,26 +14,58 @@ This project outlines the creation of tables within the Feline Foods database<br
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Create the customers table using the following specifications:
-  -  `customer_id`: An integer configured as a primary key with auto increment
-  -  `name`: A VARCHAR with a maximum length of 100 characters; must not be null
-  -  `contact`: A VARCHAR with a maximum length of 20 characters; must not be null
-  -  `address`: As a Text
+1. games Table
+```
+| Column  | Type    | Description |
+|--------|---------|-------------|
+| game_id | INTEGER | Primary Key (PK) — uniquely identifies each game |
+| title   | TEXT    | Name or title of the game (e.g., "Chess", "Tetris") |
+```
+Purpose: Stores details of each game available in the system.
 
-- Create the combos table using the following specifications:
-  - `combo_id`: An integer that serves as the primary key and is configured to auto increment
-  - `name`: A string of type VARCHAR with a maximum length of 100 characters; must be defined as NOT NULL
-  - `price`: Setting the price as DECIMAL(4,2) means the price can have up to four digits in total, with two after the decimal point, allowing values up to 99.99—enough for any item on the menu
 
-- Create the orders table using the following specifications:
-  - `order_id`: An integer that automatically increments and serves as the primary key
-  - `customer_id`: An integer that will reference the customer_id column in the customers table, establishing a foreign key relationship
-  - `combo_id`: An integer that will reference the combo_id column in the combos table, establishing a foreign key relationship
-  - `order_time`: A datetime field to record the time of the order
+2. players Table
+```
+| Column    | Type    | Description |
+|-----------|---------|-------------|
+| player_id | INTEGER | Primary Key (PK) — unique ID for each player |
+| name      | TEXT    | Player’s name |
+```
+Purpose: Contains information about all registered players.
 
-- Clearly define the foreign key relationships:
-  - The `customer_id` column must reference the `customer_id` in the `customers` table.
-  - The `combo_id` column must reference the `combo_id` in the `combos` table.
+
+3. scores Table
+```
+| Column       | Type    | Description |
+|--------------|---------|-------------|
+| score_id     | INTEGER | Primary Key (PK) — unique ID for each score record |
+| game_id      | INTEGER | Foreign Key (FK) — references games.game_id |
+| player_id    | INTEGER | Foreign Key (FK) — references players.player_id |
+| score        | INTEGER | The player’s score in that game |
+| date_played  | DATE    | The date when the game was played |
+```
+Purpose: Serves as a linking table (junction table) between games and players, recording which player played which game, the score achieved, and the date of play.
+
+
+## Relationships
+
+- One game can have many scores → games.game_id → scores.game_id
+- One player can have many scores → players.player_id → scores.player_id
+
+
+### The scores table establishes a many-to-many relationship between players and games, as:
+
+- Each player can participate in multiple games.
+- Each game can be played by multiple players.
+
+
+### In Summary
+
+The diagram models a gaming database where:
+
+- The games table holds the list of games,
+- The players table contains the list of players, and
+- The scores table connects both, capturing the performance of each player in each game.
 
 
 
