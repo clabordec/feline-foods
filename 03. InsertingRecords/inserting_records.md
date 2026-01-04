@@ -14,20 +14,19 @@ This project outlines the database creation of Feline Foods<br />
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Insert customer records into the customers table with the following values:
-  -  name: 'Kody', address: '42 Feline Farm', contact: '555-0100'
-  -  name: 'Fluffy', address: '12 Catnip Close', contact: '555-0101'
-  -  name: 'Paws', address: '99 Whisker Way', contact: '555-0102'
+- Insert players records into the players table with the following values:
+  -  name: 'Kody'
+  -  name: 'Fluffy'
 
--  Insert customer records into the combos table with the following values:
-    -  name: 'Fish & Chips', price: 8.50
-    -  name: 'Sushi Bento', price: 12.00
-    -  name: 'Pasta Combo', price: 10.00
+-  Insert games records into the games table with the following values:
+    -  title: 'Fish & Chips'
+    -  title: 'Sushi Bento'
+    -  title: 'Pasta Combo'
 
-- Insert order records into the orders table with the following values:
-  -  customer_id: 1, combo_id: 3, order_time: '2025-08-10 12:30:00'
-  -  customer_id: 2, combo_id: 2, order_time: '2025-08-10 13:15:00'
-  -  customer_id: 3, combo_id: 1, order_time: '2025-08-10 19:00:00'
+- Insert scores into the scores table with the following values:
+  -  player_id: 1, game_id: 1, score: 92000, date_played: '2025-07-10'
+  -  player_id: 2, game_id: 1, score: 87000, date_played: '2025-07-10'
+  -  player_id: 1, game_id: 2, score: 94000, date_played: '2025-07-12'
 
 
 
