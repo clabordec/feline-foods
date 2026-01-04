@@ -66,7 +66,6 @@ Feline Foods is a project centered around a local retro gaming club that hosts a
 - `InsertingRecords/` → Queries that involve adding records within the tables created.
 - `DataRetrieval/` → Queries that involve getting specific amounts of data from the tables.
 - `DataManipulation/` → Queries that involve updating or deleting certain records within the tables.
-- `DataPerformance/` → Queries that imporve the overall performance of the database by setting bookmarks on certain queries. 
 
 ---
 
