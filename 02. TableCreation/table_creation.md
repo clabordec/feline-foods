@@ -14,7 +14,7 @@ This project outlines the creation of tables within the Feline Foods database<br
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-1. games Table
+1. Games Table
 ```
 | Column  | Type    | Description |
 |--------|---------|-------------|
@@ -25,7 +25,7 @@ Purpose: Stores details of each game available in the system.
 
 <br>
 
-2. players Table
+2. Players Table
 ```
 | Column    | Type    | Description |
 |-----------|---------|-------------|
@@ -36,7 +36,7 @@ Purpose: Contains information about all registered players.
 
 <br>
 
-3. scores Table
+3. Scores Table
 ```
 | Column       | Type    | Description |
 |--------------|---------|-------------|
