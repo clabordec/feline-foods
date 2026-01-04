@@ -78,19 +78,19 @@ The diagram models a gaming database where:
 <h1>Actions and Observations</h1>
 
 ## Creating the tables 
-### Create the customers table
+### Create the games table
 <p>
-<img src="https://github.com/user-attachments/assets/a53dc61a-7958-49a5-b181-414ef257fc2d" width="550" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/af62e7b5-57cc-4397-ae2b-cda14a5c813f" width="550" alt="Disk Sanitization Steps"/>
 </p>
 
-### Create the combos table
+### Create the players table
 <p>
-<img src="https://github.com/user-attachments/assets/5f12cb94-2831-4d46-b1a3-bac433363af6" width="550" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/08943961-191c-418e-b45a-fb961ddddf8e" width="550" alt="Disk Sanitization Steps"/>
 </p>
 
-### Create the orders table, establish the relationships while creating the table
+### Create the scores table, establish the relationships while creating the table
 <p>
-<img src="https://github.com/user-attachments/assets/7f751e8b-2710-41ba-a43f-eb09e483fc4c" width="550" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/a2dece62-1f03-4191-a7f7-f4892cc19742" width="550" alt="Disk Sanitization Steps"/>
 </p>
 
 ### Get information from the newly created tables
