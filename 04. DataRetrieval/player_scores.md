@@ -37,16 +37,6 @@ Upon reviewing the updated table, the data should now show "Sushi Combo" in plac
 <img src="https://github.com/user-attachments/assets/f7719c4a-3e90-48b3-9567-1ae80f6f88a6" width="550" alt="Disk Sanitization Steps"/>
 </p> 
 
-### Change the Sushi Bento record to Sushi Combo
-<p>
-<img src="https://github.com/user-attachments/assets/2ef60845-8dd4-4035-b326-4a7d231fd396" width="550" alt="Disk Sanitization Steps"/>
-</p>
-
-### Verify the changes
-<p>
-<img src="https://github.com/user-attachments/assets/38372fda-c4f3-439f-9a4d-f42cfa9c8e0d" width="550" alt="Disk Sanitization Steps"/>
-</p> 
-
 
 ---
 
